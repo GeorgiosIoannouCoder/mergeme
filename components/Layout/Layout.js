@@ -18,7 +18,7 @@ import Search from "./Search";
 import MobileHeader from "./MobileHeader";
 
 const AppMedia = createMedia({
-  breakpoints: { zero: 0, smartphone: 400, tablet: 850, desktop: 1250 },
+  breakpoints: { zero: 0, smartphone: 541, tablet: 835, desktop: 1080 },
 });
 const mediaStyles = AppMedia.createMediaStyle();
 const { Media, MediaContextProvider } = AppMedia;
