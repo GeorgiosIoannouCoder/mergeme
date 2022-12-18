@@ -22,9 +22,10 @@
 ```bash
 # Step 1: Clone this repository.
 git clone https://github.com/GeorgiosIoannouCoder/mergeme.git
-# Step 2: Install packages.
+# Step 2: Please use Node version (you can use nvm to switch between different node versions): v16.15.0
+# Step 3: Install packages.
 npm i
-# Step 3: Run the development server.
+# Step 4: Run the development server.
 npm run dev
-# Step 4: Open http://localhost:3000 with your browser and enjoy the application.
+# Step 5: Open http://localhost:3000 with your browser and enjoy the application.
 ```
