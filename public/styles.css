@@ -1,0 +1,40 @@
+:root {
+  --progressBar: #a5c1e5;
+}
+
+body {
+  background: var(--bodyBg);
+  background-color: #282c34;
+}
+
+.spanLikesList:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mySpinner {
+  border: 5px solid #282c34;
+  border-top: 5px solid #a5c1e5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.8s linear infinite;
+  margin: auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.refreshIcon {
+  text-align: center;
+}
+
+.ui.styled.accordion .content {
+  margin: 0;
+  padding: 0.5em 1em 0.75em !important;
+}
