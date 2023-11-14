@@ -61,7 +61,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://mergeme.herokuapp.com/)
 
-#### ***MergeMe tries to solve the following problem statement in the social media industry:***
+#### <ins>***MergeMe tries to solve the following problem statement in the social media industry:***</ins>
 
 - **People need a social media build by the people for the people, without heavy advertisements and platform negativity!**
 
