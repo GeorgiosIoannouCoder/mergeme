@@ -40,6 +40,7 @@
       <ul>
         <li><a href="#key-features">Key Features</a></li>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#architecture">Architecture</a></li>
       </ul>
     </li>
     <li>
@@ -102,6 +103,14 @@
 [![Cloudinary][Cloudinary]][Cloudinary-url]
 [![Git][Git]][Git-url]
 [![Heroku][Heroku]][Heroku-url]
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+
+### Architecture
+
+<div align="center">
+  <img src="architecture.png" alt="Architecture">
+</div>
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
