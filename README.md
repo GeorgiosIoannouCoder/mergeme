@@ -133,7 +133,7 @@
   git -v
 ```
 
-1. Please make sure you have Node installed and use Node version: **v16.15.0**. For all other pakage versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/package.json) file.
+1. Please make sure you have Node installed and use Node version: **v16.15.0**. For all other package versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/package.json) file.
     - You can use nvm to switch between different node versions:
       - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
       - Mac: [https://www.youtube.com/watch?v=BhLFxy6Jz8c](https://www.youtube.com/watch?v=BhLFxy6Jz8c)
@@ -196,7 +196,7 @@
 
 6. Create a next.config.js file inside the mergeme directory
 
-   **Note:***
+   ***Note:***
 
    ***1. Please put your own your_cludinary_cloud_name. You can obtain one by creating an account [here](https://cloudinary.com/) and then get your own cloud name.***
 
