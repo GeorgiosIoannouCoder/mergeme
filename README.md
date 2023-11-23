@@ -133,7 +133,7 @@
   git -v
 ```
 
-1. Please make sure you have Node installed and use Node version: **v16.15.0**
+1. Please make sure you have Node installed and use Node version: **v16.15.0**. For all other pakage versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/package.json) file.
     - You can use nvm to switch between different node versions:
       - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
       - Mac: [https://www.youtube.com/watch?v=BhLFxy6Jz8c](https://www.youtube.com/watch?v=BhLFxy6Jz8c)
@@ -149,9 +149,6 @@
     - Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
     - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
     - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
-
-4. Please make sure you have MongoDB Compass installed
-    - MongoDB Compass: [https://www.mongodb.com/try/download/compass/](https://www.mongodb.com/try/download/compass)
 
 ### Installation
 
@@ -183,13 +180,31 @@
 
 5. Create a config.env file inside the mergeme directory
 
-    ```js
-    MONGO_URI=mongodb://127.0.0.1:27017/mergeme OR your online MONGO_URI
+   ***Note:***
+
+   ***1. Please put your own MONGO_URI. You can obtain one by creating an account [here](https://www.mongodb.com/) and then create your own organization, project, and cluster.***
+
+   ***2. Please put your own jwtSecret. It can be anything you like.***
+
+   ***3. Please put your own sendGrid_api. You can obtain one by creating an account [here](https://sendgrid.com/en-us).***
+   
+   ```js
+    MONGO_URI=your_online_MONGO_URI
     jwtSecret=here_have_a_random_secret_code
     sendGrid_api=api_key_get_it_from_sendgrid
     ```
 
 6. Create a next.config.js file inside the mergeme directory
+
+   **Note:***
+
+   ***1. Please put your own your_cludinary_cloud_name. You can obtain one by creating an account [here](https://cloudinary.com/) and then get your own cloud name.***
+
+   ***2. Please change the cloud name in [uploadPicToCloudinary.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/utils/uploadPicToCloudinary.js#L8).***
+
+   ***3. Please change the cloud name in [signup.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/api/signup.js#L12).***
+
+   ***4. Please change the unsigned upload preset name in [uploadPicToCloudinary.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/utils/uploadPicToCloudinary.js#L7).***
 
     ```js
     module.exports = {
