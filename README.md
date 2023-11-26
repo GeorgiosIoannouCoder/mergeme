@@ -133,19 +133,13 @@
   git -v
 ```
 
-1. Please make sure you have Node installed and use Node version: **v16.15.0**. For all other package versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/package.json) file.
+1. Please make sure you have Node and npm installed and use Node version: **v16.15.0**. For all other package versions please look at [package.json](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/package.json) file.
     - You can use nvm to switch between different node versions:
       - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
       - Mac: [https://www.youtube.com/watch?v=BhLFxy6Jz8c](https://www.youtube.com/watch?v=BhLFxy6Jz8c)
       - Linux: [https://www.youtube.com/watch?v=tm1XllMkbAU](https://www.youtube.com/watch?v=tm1XllMkbAU)
 
-2. Please make sure you have NPM installed (it usually comes with Node installation)
-
-    ```sh
-      npm install npm@latest -g
-    ```
-
-3. Please make sure you have git installed
+2. Please make sure you have git installed
     - Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
     - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
     - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
