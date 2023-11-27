@@ -172,7 +172,7 @@
    npm i
    ```
 
-5. Create a config.env file inside the mergeme directory
+5. Create a config.env file inside the mergeme directory (back-end environment variables)
 
    ***Note:***
 
@@ -181,14 +181,17 @@
    ***2. Please put your own jwtSecret. It can be anything you like.***
 
    ***3. Please put your own sendGrid_api. You can obtain one by creating an account [here](https://sendgrid.com/en-us).***
+
+   ***4. Please put your own your_cludinary_cloud_name. You can obtain it by creating an account [here](https://cloudinary.com/).***
    
    ```js
     MONGO_URI=your_online_MONGO_URI
     jwtSecret=here_have_a_random_secret_code
     sendGrid_api=api_key_get_it_from_sendgrid
+    CLOUDINARY_CLOUD_NAME=your_cludinary_cloud_name
     ```
 
-6. Create a next.config.js file inside the mergeme directory
+7. Create a next.config.js file inside the mergeme directory (front-end environment variables)
 
    ***Note:***
 
@@ -204,7 +207,7 @@
     };
     ```
 
-7. Run the development server (running at port 3000)
+8. Run the development server (running at port 3000)
 
    ```sh
    npx nodemon server
