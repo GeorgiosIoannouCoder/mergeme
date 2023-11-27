@@ -9,7 +9,9 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const isEmail = require("validator/lib/isEmail");
 const userPng =
-  "https://res.cloudinary.com/dgnigx1ez/image/upload/v1671041660/new-user_dp9poo.png";
+  "https://res.cloudinary.com/" +
+  process.env.CLOUDINARY_CLOUD_NAME +
+  "/image/upload/v1671041660/new-user_dp9poo.png";
 
 const regexUserName = /^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$/;
 
