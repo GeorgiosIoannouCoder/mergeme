@@ -188,7 +188,7 @@
     MONGO_URI=your_online_MONGO_URI
     jwtSecret=here_have_a_random_secret_code
     sendGrid_api=api_key_get_it_from_sendgrid
-    CLOUDINARY_CLOUD_NAME=your_cludinary_cloud_name
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
     ```
 
 7. Create a next.config.js file inside the mergeme directory (front-end environment variables)
@@ -201,7 +201,7 @@
     module.exports = {
       env: {
         CLOUDINARY_URL: "https://api.cloudinary.com/v1_1/your_cludinary_cloud_name/image/upload",
-        CLOUDINARY_CLOUD_NAME: "your_cludinary_cloud_name",
+        CLOUDINARY_CLOUD_NAME: "your_cloudinary_cloud_name",
         CLOUDINARY_UPLOAD_PRESET: "your_upload_preset",
       },
     };
