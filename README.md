@@ -192,7 +192,7 @@
 
    ***Note:***
 
-   ***1. Please put your own your_cludinary_cloud_name. You can obtain one by creating an account [here](https://cloudinary.com/) and then get your own cloud name.***
+   ***1. Please put your own your_cludinary_cloud_name and your own your_upload_preset. You can obtain one by creating an account [here](https://cloudinary.com/) and then get your own cloud name.***
 
     ```js
     module.exports = {
