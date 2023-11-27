@@ -120,7 +120,7 @@
 
 ### Prerequisites
 
-**NOTE:** How to check if Node and NPM are installed and what is their versions
+**NOTE:** How to check if Node and NPM are installed and what are their versions
 
 ```sh
   node -v
@@ -211,7 +211,7 @@
 7. Run the development server (running at port 3000)
 
    ```sh
-   npm run dev
+   npx nodemon server
    ```
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
