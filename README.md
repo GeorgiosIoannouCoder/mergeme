@@ -194,16 +194,12 @@
 
    ***1. Please put your own your_cludinary_cloud_name. You can obtain one by creating an account [here](https://cloudinary.com/) and then get your own cloud name.***
 
-   ***2. Please change the cloud name in [uploadPicToCloudinary.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/utils/uploadPicToCloudinary.js#L8).***
-
-   ***3. Please change the cloud name in [signup.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/api/signup.js#L12).***
-
-   ***4. Please change the unsigned upload preset name in [uploadPicToCloudinary.js](https://github.com/GeorgiosIoannouCoder/mergeme/blob/main/utils/uploadPicToCloudinary.js#L7).***
-
     ```js
     module.exports = {
       env: {
         CLOUDINARY_URL: "https://api.cloudinary.com/v1_1/your_cludinary_cloud_name/image/upload",
+        CLOUDINARY_CLOUD_NAME: "your_cludinary_cloud_name",
+        CLOUDINARY_UPLOAD_PRESET: "your_upload_preset",
       },
     };
     ```
