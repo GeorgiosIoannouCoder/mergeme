@@ -1,3 +1,5 @@
+***NOTE: When visiting this application make sure that you are using the protocol <ins>https</ins> and NOT http otherwise the application will not work!***
+# [MergeMe](https://mergeme.herokuapp.com/) | Social Media Platform
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
