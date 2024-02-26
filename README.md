@@ -13,8 +13,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][github-shield]][github-url]
 
-# [MergeMe](https://mergeme.herokuapp.com/) | Social Media Platform
-
 <br />
 <div align="center">
   <a href="https://mergeme.herokuapp.com/">
